@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - AgroRisk Ghana</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom right, #f0fdf4, #d1fae5);
+            color: #1f2937;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h1 { color: #059669; }
+        .message { margin: 20px 0; }
+        .button {
+            display: inline-block;
+            background: #059669;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .button:hover { background: #047857; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>You're Offline</h1>
+        <div class="message">
+            <p>Sorry, you're currently offline. Some features may not be available.</p>
+            <p>Your data is safely stored and will sync when you're back online.</p>
+        </div>
+        <a href="/" class="button">Try Again</a>
+    </div>
+</body>
+</html>
