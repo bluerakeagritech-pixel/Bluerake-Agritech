@@ -138,13 +138,21 @@ const HomePage = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Financial Institution Partners</h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
-            {['GCB Bank', 'Agricultural Development Bank', 'Ecobank Ghana', 'Fidelity Bank'].map((bank) => (
-              <div key={bank} className="bg-gray-50 rounded-lg p-6 text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Landmark className="w-8 h-8 text-blue-600" />
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto opacity-50">
+            {/* 
+              TODO: Replace with actual partners later
+              {['GCB Bank', 'Agricultural Development Bank', 'Ecobank Ghana', 'Fidelity Bank'].map((bank) => (
+                <div key={bank} className="bg-gray-50 rounded-lg p-6 text-center">
+                  <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Landmark className="w-8 h-8 text-blue-600" />
+                  </div>
+                  <h3 className="text-lg font-semibold">{bank}</h3>
                 </div>
-                <h3 className="text-lg font-semibold">{bank}</h3>
+              ))}
+            */}
+            {[1, 2, 3, 4].map((placeholder) => (
+              <div key={placeholder} className="bg-gray-50 border-2 border-dashed border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center h-40">
+                <p className="text-gray-400 font-medium">Partner TBA</p>
               </div>
             ))}
           </div>
