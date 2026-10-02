@@ -26,11 +26,11 @@ export default function CorporateNavbar() {
             <a href="#investors" className="text-gray-600 hover:text-bluerake-green font-medium transition-colors">Investors</a>
             
             <RouterLink 
-              to="/agrorisk" 
+              to="/BlueRakeAgriTech" 
               className="group flex items-center gap-2 px-5 py-2.5 rounded-full border-2 border-bluerake-emerald text-bluerake-emerald font-semibold hover:bg-bluerake-emerald hover:text-white transition-all duration-300"
             >
               <Leaf className="w-4 h-4" />
-              Access AgroRisk
+              Access BlueRakeAgriTech
             </RouterLink>
           </div>
 
@@ -48,7 +48,7 @@ export default function CorporateNavbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#about" className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-bluerake-green">Our Vision</a>
             <a href="#leadership" className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-bluerake-green">Leadership</a>
-            <RouterLink to="/agrorisk" className="block px-3 py-2 mt-4 text-center rounded-md bg-bluerake-emerald text-white font-medium">Access AgroRisk</RouterLink>
+            <RouterLink to="/BlueRakeAgriTech" className="block px-3 py-2 mt-4 text-center rounded-md bg-bluerake-emerald text-white font-medium">Access BlueRakeAgriTech</RouterLink>
           </div>
         </div>
       )}

@@ -158,7 +158,7 @@ const CentralizedSystem = () => {
             <div className="flex items-center">
               <Brain className="h-8 w-8 text-purple-600" />
               <div className="ml-3">
-                <h1 className="text-xl font-bold text-gray-900">AgroRisk Ghana</h1>
+                <h1 className="text-xl font-bold text-gray-900">BlueRakeAgriTech Ghana</h1>
                 <p className="text-sm text-gray-500">Central Agricultural Intelligence System</p>
               </div>
             </div>

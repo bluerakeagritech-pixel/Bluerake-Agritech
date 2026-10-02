@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 
 export default function ProductGatewayCard() {
   return (
-    <div id="agrorisk" className="relative group bg-white rounded-[2.5rem] shadow-2xl border border-gray-100 overflow-hidden hover:shadow-[0_20px_50px_rgba(10,114,68,0.15)] hover:border-bluerake-emerald/30 transition-all duration-500">
+    <div id="BlueRakeAgriTech" className="relative group bg-white rounded-[2.5rem] shadow-2xl border border-gray-100 overflow-hidden hover:shadow-[0_20px_50px_rgba(10,114,68,0.15)] hover:border-bluerake-emerald/30 transition-all duration-500">
       
       <div className="grid lg:grid-cols-2 gap-0">
         {/* Left Side: Product Info */}
@@ -17,7 +17,7 @@ export default function ProductGatewayCard() {
             Live Platform
           </div>
           
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">AgroRisk Ghana</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">BlueRakeAgriTech Ghana</h2>
           <p className="text-gray-600 text-lg mb-8 leading-relaxed">
             Our flagship platform connecting smallholder farmers to institutional finance through bank-grade risk assessments, utilizing real-time soil intelligence and geospatial verification.
           </p>
@@ -46,8 +46,8 @@ export default function ProductGatewayCard() {
             </div>
           </div>
           
-          <RouterLink to="/agrorisk" className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-bluerake-green text-white rounded-xl font-semibold hover:bg-bluerake-emerald transition-colors shadow-lg">
-            Enter AgroRisk Portal
+          <RouterLink to="/BlueRakeAgriTech" className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-bluerake-green text-white rounded-xl font-semibold hover:bg-bluerake-emerald transition-colors shadow-lg">
+            Enter BlueRakeAgriTech Portal
             <ExternalLink className="w-5 h-5" />
           </RouterLink>
         </div>
@@ -63,7 +63,7 @@ export default function ProductGatewayCard() {
                 <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
                 <div className="w-3 h-3 rounded-full bg-green-400"></div>
               </div>
-              <div className="ml-4 text-white/90 font-medium text-sm tracking-wide">AgroRisk Global Dashboard</div>
+              <div className="ml-4 text-white/90 font-medium text-sm tracking-wide">BlueRakeAgriTech Global Dashboard</div>
             </div>
             {/* Mockup Body */}
             <div className="p-6 space-y-6 bg-gray-50/50">

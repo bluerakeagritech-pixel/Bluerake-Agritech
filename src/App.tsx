@@ -42,7 +42,7 @@ function App() {
       <WebsiteLayout>
         <Routes>
           <Route path="/" element={<CorporateLandingPage />} />
-          <Route path="/agrorisk" element={<HomePage />} />
+          <Route path="/BlueRakeAgriTech" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/contact" element={<ContactPage />} />

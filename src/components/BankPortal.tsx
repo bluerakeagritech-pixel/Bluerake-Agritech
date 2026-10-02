@@ -119,7 +119,7 @@ const BankPortal: React.FC<BankPortalProps> = ({ bankId }) => {
             <div>
               <h3 className="font-medium text-blue-800">Intelligence Viewing Portal</h3>
               <p className="text-sm text-blue-700 mt-1">
-                All data is processed and analyzed by the AgroRisk Ghana Central System. 
+                All data is processed and analyzed by the BlueRakeAgriTech Ghana Central System. 
                 You can view farmer intelligence, risk assessments, and download credit reports.
                 You cannot modify any data or run assessments.
               </p>

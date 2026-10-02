@@ -38,8 +38,8 @@ export default function HeroDataVisualization() {
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row justify-center gap-5 mb-24 w-full sm:w-auto">
-          <RouterLink to="/agrorisk" className="px-8 py-4 bg-bluerake-emerald hover:bg-green-600 text-white rounded-xl font-bold text-lg transition-all flex items-center justify-center gap-3 group shadow-[0_0_30px_rgba(10,114,68,0.3)] hover:shadow-[0_0_40px_rgba(10,114,68,0.5)] transform hover:-translate-y-1">
-            Explore AgroRisk
+          <RouterLink to="/BlueRakeAgriTech" className="px-8 py-4 bg-bluerake-emerald hover:bg-green-600 text-white rounded-xl font-bold text-lg transition-all flex items-center justify-center gap-3 group shadow-[0_0_30px_rgba(10,114,68,0.3)] hover:shadow-[0_0_40px_rgba(10,114,68,0.5)] transform hover:-translate-y-1">
+            Explore BlueRakeAgriTech
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </RouterLink>
           <a href="#tech" className="px-8 py-4 bg-white/5 hover:bg-white/10 text-white border border-white/10 rounded-xl font-bold text-lg transition-all flex items-center justify-center backdrop-blur-md transform hover:-translate-y-1">

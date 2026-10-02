@@ -25,7 +25,7 @@ const Header = () => {
             <Link to="/system" className="flex items-center">
               <Sprout className="h-8 w-8 text-green-600" />
               <span className="ml-2 text-xl font-bold text-green-800">
-                AgroRisk Ghana - Central System
+                BlueRakeAgriTech Ghana - Central System
               </span>
             </Link>
             
@@ -46,7 +46,7 @@ const Header = () => {
             <Link to="/farmer" className="flex items-center">
               <Sprout className="h-8 w-8 text-green-600" />
               <span className="ml-2 text-xl font-bold text-green-800">
-                AgroRisk Ghana - Farmer Portal
+                BlueRakeAgriTech Ghana - Farmer Portal
               </span>
             </Link>
             
@@ -67,7 +67,7 @@ const Header = () => {
             <Link to="/bank" className="flex items-center">
               <Sprout className="h-8 w-8 text-blue-600" />
               <span className="ml-2 text-xl font-bold text-blue-800">
-                AgroRisk Ghana - Bank Portal
+                BlueRakeAgriTech Ghana - Bank Portal
               </span>
             </Link>
             
@@ -87,7 +87,7 @@ const Header = () => {
           <Link to="/" className="flex items-center">
             <Sprout className="h-8 w-8 text-green-600" />
             <span className="ml-2 text-xl font-bold text-green-800">
-              AgroRisk Ghana
+              BlueRakeAgriTech Ghana
             </span>
           </Link>
 

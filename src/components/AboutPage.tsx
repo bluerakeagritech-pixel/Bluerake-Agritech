@@ -7,7 +7,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-green-600 to-emerald-700 text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About AgroRisk Ghana</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">About BlueRakeAgriTech Ghana</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
             Revolutionizing agricultural financing through innovative risk assessment technology
           </p>
@@ -46,7 +46,7 @@ const AboutPage = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-8">Project BlueRake Agritech Ghana</h2>
             <p className="text-lg text-gray-600 mb-8">
-              AgroRisk Ghana is a flagship sub-project of Project BlueRake Agritech Ghana, a comprehensive agricultural technology initiative aimed at modernizing Ghana's agricultural sector through innovative solutions and sustainable practices.
+              BlueRakeAgriTech Ghana is a flagship sub-project of Project BlueRake Agritech Ghana, a comprehensive agricultural technology initiative aimed at modernizing Ghana's agricultural sector through innovative solutions and sustainable practices.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">

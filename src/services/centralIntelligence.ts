@@ -1,4 +1,4 @@
-// Central Intelligence Service - The Brain of AgroRisk Ghana
+// Central Intelligence Service - The Brain of BlueRakeAgriTech Ghana
 // Now backed by Supabase for persistent storage across reloads.
 import { supabase } from '../lib/supabase';
 import { riskAssessmentEngine, type RawFarmParameters } from './riskAssessmentEngine';

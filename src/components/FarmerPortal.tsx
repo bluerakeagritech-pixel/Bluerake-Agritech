@@ -165,7 +165,7 @@ const FarmerPortal: React.FC<FarmerPortalProps> = ({ farmerId }) => {
             <div>
               <h3 className="font-medium text-blue-800">Data Collection Portal</h3>
               <p className="text-sm text-blue-700 mt-1">
-                Enter your farm data below. All information is sent directly to the AgroRisk Ghana 
+                Enter your farm data below. All information is sent directly to the BlueRakeAgriTech Ghana 
                 Central System for processing and analysis. You cannot edit system calculations.
               </p>
             </div>
@@ -1110,7 +1110,7 @@ const FarmerPortal: React.FC<FarmerPortalProps> = ({ farmerId }) => {
                     <div>
                       <h3 className="font-medium text-green-800">Your Results from Central System</h3>
                       <p className="text-sm text-green-700 mt-1">
-                        These results are calculated and provided by the AgroRisk Ghana Central System.
+                        These results are calculated and provided by the BlueRakeAgriTech Ghana Central System.
                         You cannot modify these values.
                       </p>
                     </div>

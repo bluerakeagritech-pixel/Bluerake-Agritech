@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
               <Sprout className="h-8 w-8 text-green-400" />
-              <span className="ml-2 text-xl font-bold">AgroRisk Ghana</span>
+              <span className="ml-2 text-xl font-bold">BlueRakeAgriTech Ghana</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               A sub-project of Project BlueRake Agritech Ghana, empowering farmers with smart risk assessment tools and financial solutions for sustainable agriculture.
@@ -70,7 +70,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-green-400 mr-2" />
-                <span className="text-gray-300 text-sm">info@agrorisk.gh</span>
+                <span className="text-gray-300 text-sm">info@BlueRakeAgriTech.gh</span>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 AgroRisk Ghana. All rights reserved.
+              © 2025 BlueRakeAgriTech Ghana. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-green-400 text-sm transition-colors">

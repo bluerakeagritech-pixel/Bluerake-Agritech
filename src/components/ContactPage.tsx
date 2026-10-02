@@ -58,9 +58,9 @@ const ContactPage = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-800 mb-2">Email Addresses</h3>
                     <p className="text-gray-600">
-                      General: info@agrorisk.gh<br />
-                      Support: support@agrorisk.gh<br />
-                      Partnerships: partners@agrorisk.gh
+                      General: info@BlueRakeAgriTech.gh<br />
+                      Support: support@BlueRakeAgriTech.gh<br />
+                      Partnerships: partners@BlueRakeAgriTech.gh
                     </p>
                   </div>
                 </div>

@@ -28,8 +28,8 @@ export default defineConfig({
         ]
       },
       manifest: {
-        name: 'AgroRisk Ghana',
-        short_name: 'AgroRisk',
+        name: 'BlueRakeAgriTech Ghana',
+        short_name: 'BlueRakeAgriTech',
         description: 'Farm Risk Assessment App for Ghanaian Farmers',
         theme_color: '#059669',
         background_color: '#ffffff',

@@ -99,7 +99,7 @@ export default function CorporateLandingPage() {
               <LeadershipProfileCard 
                 name="Abdul Manarf"
                 title="Co-Founder & CTO"
-                bio="Architecting the machine learning infrastructure and satellite integrations that power the AgroRisk predictive intelligence engine."
+                bio="Architecting the machine learning infrastructure and satellite integrations that power the BlueRakeAgriTech predictive intelligence engine."
                 linkedin="https://linkedin.com"
               />
             </div>
@@ -123,7 +123,7 @@ export default function CorporateLandingPage() {
           <div>
             <h4 className="text-white font-semibold mb-4">Subsidiaries</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">AgroRisk Ghana</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">BlueRakeAgriTech Ghana</a></li>
               <li><a href="#" className="hover:text-white transition-colors">FarmSense API</a></li>
             </ul>
           </div>

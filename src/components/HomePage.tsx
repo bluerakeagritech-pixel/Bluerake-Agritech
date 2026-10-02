@@ -15,7 +15,7 @@ const HomePage = () => {
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="relative z-10 bg-black bg-opacity-60 p-10 rounded-xl text-center max-w-2xl mx-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">AgroRisk Ghana</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">BlueRakeAgriTech Ghana</h1>
           <p className="text-lg md:text-xl mb-4">
             A sub-project of Project BlueRake Agritech Ghana
           </p>
@@ -56,7 +56,7 @@ const HomePage = () => {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Digital Bridge Between Soil, Crops, and Finance</h2>
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg text-gray-600 mb-6">
-              AgroRisk Ghana transforms traditional farming into data-driven agriculture by combining FarmSense soil intelligence, satellite monitoring, and demo plot benchmarks to create bank-grade credit assessments.
+              BlueRakeAgriTech Ghana transforms traditional farming into data-driven agriculture by combining FarmSense soil intelligence, satellite monitoring, and demo plot benchmarks to create bank-grade credit assessments.
             </p>
             <p className="text-lg text-gray-600">
               Powered by FarmSense soil devices and Demo Plot Intelligence, we provide comprehensive digital extension services that guide farmers from land preparation to profitable harvest.
