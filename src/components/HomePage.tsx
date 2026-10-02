@@ -14,38 +14,41 @@ const HomePage = () => {
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <div className="relative z-10 bg-black bg-opacity-60 p-10 rounded-xl text-center max-w-2xl mx-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">BlueRakeAgriTech Ghana</h1>
-          <p className="text-lg md:text-xl mb-4">
-            A sub-project of Project BlueRake Agritech Ghana
-          </p>
-          <p className="text-lg md:text-xl mb-8">
-            Uses soil science, satellite data, and field demo plots to convert Ghanaian farmers into bank-ready investments
+        <div className="relative z-10 bg-black bg-opacity-60 p-10 rounded-xl text-center max-w-4xl mx-4">
+          <div className="inline-block px-4 py-1.5 rounded-full bg-green-500/20 border border-green-400/30 text-green-300 text-sm font-semibold tracking-wider uppercase mb-6">
+            An Enterprise Solution by BlueRake AgriTech
+          </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            Uses soil science, satellite data, and field demo plots to convert Ghanaian farmers into bank-ready investments.
+          </h1>
+          <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+            Bridging the financing gap by delivering the precise, ground-truthed risk metrics that lenders and agribusinesses demand.
           </p>
           <div className="space-y-4">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/farmer"
-                className="inline-block bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-all transform hover:scale-105"
+                className="inline-block bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-green-600/30"
               >
-                Farmer Portal
+                Access Farmer Portal
               </Link>
               <Link
                 to="/bank"
-                className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-all transform hover:scale-105"
+                className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-blue-600/30"
               >
-                Bank Portal
-              </Link>
-              <Link
-                to="/system"
-                className="inline-block bg-white hover:bg-gray-100 text-green-700 px-8 py-3 rounded-full text-lg font-semibold transition-all transform hover:scale-105"
-              >
-                System Admin
+                Access Bank Portal
               </Link>
             </div>
-            <p className="text-sm text-gray-300 mt-4">
-              One centralized brain, multiple access windows
-            </p>
+            
+            {/* Hidden System Admin Portal for Devs/Admins only - reveals on hover */}
+            <div className="pt-8 opacity-0 hover:opacity-100 transition-opacity duration-500 flex justify-center">
+              <Link
+                to="/system"
+                className="text-xs text-gray-500 hover:text-gray-300 tracking-widest uppercase"
+              >
+                [Admin Portal]
+              </Link>
+            </div>
           </div>
         </div>
       </div>
