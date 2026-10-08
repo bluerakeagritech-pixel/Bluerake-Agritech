@@ -105,7 +105,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <img
-                src="https://i.imgur.com/KlSUzza.jpeg"
+                src="/team/mailitafi.jpg"
                 alt="Mailitafi Abdullahi Mailitafi"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
@@ -115,7 +115,7 @@ const HomePage = () => {
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <img
-                src="https://i.imgur.com/SAGXDVT.jpeg"
+                src="/team/ishmeal.jpg"
                 alt="Ishmeal Amoah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
@@ -125,7 +125,7 @@ const HomePage = () => {
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <img
-                src="https://i.imgur.com/Qix442a.jpeg"
+                src="/team/maame.jpg"
                 alt="Maame Adwoa Safoa Amoah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />

@@ -94,18 +94,21 @@ export default function CorporateLandingPage() {
                 name="Mailitafi Abdullahi Mailitafi"
                 title="Co-founder & Agricultural Innovation Lead"
                 bio="In charge of bridging farming practices to the fintech ecosystem."
+                imageUrl="/team/mailitafi.jpg"
                 linkedin="https://linkedin.com"
               />
               <LeadershipProfileCard 
                 name="Ishmeal Amoah"
                 title="Co-founder & Agricultural Innovation Lead"
                 bio="PhD in Soil and Water Engineering | Climate change adaptation (indigenous weather forecasting) | Agricultural water management."
+                imageUrl="/team/ishmeal.jpg"
                 linkedin="https://linkedin.com"
               />
               <LeadershipProfileCard 
                 name="Maame Adwoa Safoa Amoah"
                 title="Agronomy & Sustainability Lead"
                 bio="MSc Organic Agriculture and Food Systems."
+                imageUrl="/team/maame.jpg"
                 linkedin="https://linkedin.com"
               />
             </div>
