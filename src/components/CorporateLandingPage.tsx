@@ -89,17 +89,23 @@ export default function CorporateLandingPage() {
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900">Leadership</h3>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <LeadershipProfileCard 
-                name="Mailitafi Adbullahi Mailitafi"
-                title="Co-Founder & CEO"
-                bio="Pioneering the intersection of agricultural finance and geospatial technology. Leading the strategic expansion of BlueRake across African markets."
+                name="Mailitafi Abdullahi Mailitafi"
+                title="Co-founder & Agricultural Innovation Lead"
+                bio="In charge of bridging farming practices to the fintech ecosystem."
                 linkedin="https://linkedin.com"
               />
               <LeadershipProfileCard 
-                name="Abdul Manarf"
-                title="Co-Founder & CTO"
-                bio="Architecting the machine learning infrastructure and satellite integrations that power the BlueRakeAgriTech predictive intelligence engine."
+                name="Ishmeal Amoah"
+                title="Co-founder & Agricultural Innovation Lead"
+                bio="PhD in Soil and Water Engineering | Climate change adaptation (indigenous weather forecasting) | Agricultural water management."
+                linkedin="https://linkedin.com"
+              />
+              <LeadershipProfileCard 
+                name="Maame Adwoa Safoa Amoah"
+                title="Agronomy & Sustainability Lead"
+                bio="MSc Organic Agriculture and Food Systems."
                 linkedin="https://linkedin.com"
               />
             </div>

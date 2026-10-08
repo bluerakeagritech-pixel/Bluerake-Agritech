@@ -102,33 +102,36 @@ const HomePage = () => {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Meet the Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <img
                 src="https://i.imgur.com/KlSUzza.jpeg"
-                alt="Dr. Kwame Mensah"
+                alt="Mailitafi Abdullahi Mailitafi"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
               <h3 className="text-xl font-semibold mb-2">Mailitafi Abdullahi Mailitafi</h3>
-              <p className="text-gray-600">Credit Intelligence Lead</p>
+              <p className="text-gray-800 font-medium text-sm mb-2">Co-founder & Agricultural Innovation Lead</p>
+              <p className="text-gray-500 text-xs">In charge of bridging farming practices to the fintech ecosystem.</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <img
                 src="https://i.imgur.com/SAGXDVT.jpeg"
-                alt="Grace Addo"
+                alt="Ishmeal Amoah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
               <h3 className="text-xl font-semibold mb-2">Ishmeal Amoah</h3>
-              <p className="text-gray-600">Soil Intelligence Specialist</p>
+              <p className="text-gray-800 font-medium text-sm mb-2">Co-founder & Agricultural Innovation Lead</p>
+              <p className="text-gray-500 text-xs">PhD in Soil and Water Engineering | Climate change adaptation (indigenous weather forecasting) | Agricultural water management.</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6 text-center">
               <img
                 src="https://i.imgur.com/Qix442a.jpeg"
-                alt="Samuel Owusu"
+                alt="Maame Adwoa Safoa Amoah"
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
-              <h3 className="text-xl font-semibold mb-2">Abdul Manarf</h3>
-              <p className="text-gray-600">Digital Extension Lead</p>
+              <h3 className="text-xl font-semibold mb-2">Maame Adwoa Safoa Amoah</h3>
+              <p className="text-gray-800 font-medium text-sm mb-2">Agronomy & Sustainability Lead</p>
+              <p className="text-gray-500 text-xs">MSc Organic Agriculture and Food Systems.</p>
             </div>
           </div>
         </div>
