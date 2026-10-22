@@ -44,8 +44,11 @@ const BankPortal: React.FC<BankPortalProps> = ({ bankId }) => {
     loadProfile();
   }, [selectedFarmerId]);
 
+  const normalizedSearch = searchTerm.trim().toLowerCase().replace('-', '');
   const filteredIntelligence = bankIntelligence.filter(record => {
-    const matchesSearch = record.farmerName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    const matchesSearch = !normalizedSearch ||
+                         record.farmerId.toLowerCase().replace('-', '').includes(normalizedSearch) ||
+                         record.farmerName.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          record.location.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesRisk = riskFilter === 'all' || record.riskCategory === riskFilter;
     return matchesSearch && matchesRisk;

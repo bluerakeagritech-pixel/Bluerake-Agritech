@@ -1,3 +1,42 @@
+export interface AdminAugmentationData {
+  earthObservation: {
+    ndviScore: number;
+    vegetationStatus: 'excellent' | 'good' | 'moderate' | 'poor';
+    vhiDroughtStatus: 'normal' | 'mild' | 'moderate' | 'severe';
+    soilMoistureIndex: number;
+    rainfallPattern: 'bimodal' | 'unimodal' | 'irregular';
+    annualRainfallMm: number;
+    droughtRisk: 'low' | 'medium' | 'high';
+    floodRisk: 'low' | 'medium' | 'high';
+    imagerySource: string;
+    observationDate: string;
+  };
+  soilScience: {
+    pH: number;
+    nitrogen: number;
+    phosphorus: number;
+    potassium: number;
+    organicMatter: number;
+    moisture: number;
+    soilTexture: 'clay' | 'sandy' | 'loamy' | 'silt' | 'peat';
+    soilDepth: 'shallow' | 'medium' | 'deep';
+    soilFertilityScore: number;
+    fertilizerRecommendation: string;
+    labReportDate: string;
+  };
+  demoPlotData: {
+    farmerExpectedYield: number;
+    benchmarkYield: number;
+    performanceRatio: number;
+    extensionComplianceScore: number;
+    pestControlCapacity: 'high' | 'medium' | 'low';
+    extensionOfficer: string;
+    fieldNotes: string;
+  };
+  augmentedBy: string;
+  augmentedAt: string;
+}
+
 export interface Farmer {
   id: string;
   fullName: string;
@@ -19,12 +58,17 @@ export interface Farmer {
     longitude: number;
     region: string;
     district: string;
+    community?: string;
     agroEcologicalZone: string;
   };
   extensionScore: number;
   performanceRatio: number;
   created_at: string;
   extendedData?: {
+    ghfaId?: string;
+    primaryCrop?: string;
+    season?: string;
+    registrationStatus?: 'pending_augmentation' | 'augmented_bank_ready';
     landTenure: 'owned' | 'lease' | 'sharecrop';
     soilData: {
       soilType: 'clay' | 'sandy' | 'loamy' | 'silt' | 'peat';
@@ -61,6 +105,7 @@ export interface Farmer {
     socialFinancial: {
       cooperativeMember: boolean;
       cooperativeName: string;
+      vslaMember?: boolean;
       offFarmIncome: boolean;
       hasSavings: boolean;
       familySupport: boolean;
@@ -69,6 +114,7 @@ export interface Farmer {
       ndviScore: number;
       lastUpdated: string;
     };
+    adminAugmentation?: AdminAugmentationData;
   };
 }
 

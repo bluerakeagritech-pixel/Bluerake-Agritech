@@ -87,7 +87,7 @@ const AddFarmerForm: React.FC<AddFarmerFormProps> = ({ onClose, onFarmerAdded })
 
   const [landTenure, setLandTenure] = useState<'owned' | 'lease' | 'sharecrop'>('owned');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (!formData.fullName || !formData.farmSize || !formData.location?.region) {
@@ -96,10 +96,10 @@ const AddFarmerForm: React.FC<AddFarmerFormProps> = ({ onClose, onFarmerAdded })
     }
 
     try {
-      // Create complete farmer record
-      const completeFarmer: Farmer = {
-        ...formData as Farmer,
-        // Add extended data that will be used by Risk Assessment Engine
+      // Create complete farmer record and generate sequential GHFAxxx ID
+      const createdFarmer = await centralIntelligence.registerFarmer({
+        ...formData,
+        id: undefined,
         extendedData: {
           landTenure,
           soilData,
@@ -109,13 +109,10 @@ const AddFarmerForm: React.FC<AddFarmerFormProps> = ({ onClose, onFarmerAdded })
           socialFinancial,
           vegetationHealth
         }
-      };
-
-      // Add farmer to central intelligence system
-      centralIntelligence.addFarmer(completeFarmer);
+      });
       
-      toast.success(`Farmer ${formData.fullName} added successfully!`);
-      onFarmerAdded(completeFarmer);
+      toast.success(`Farmer ${createdFarmer.fullName} registered with ID: ${createdFarmer.id}!`);
+      onFarmerAdded(createdFarmer);
       onClose();
     } catch (error) {
       toast.error(`Error adding farmer: ${error}`);
